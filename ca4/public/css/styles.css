@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   body {
@@ -15,7 +16,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(182, 0, 182);
+    background-color: #111;
     overflow-x: hidden;
   }
 
@@ -49,25 +50,58 @@
     padding-left: 20px;
   }
 
-  .message__info{
-      color: gray;
-      font-size: small;
-      font-style: italic;
+  #description{
+    padding: 10px;
+    background-color: #ECD06F;
+    color: black;
+    text-align: left;
+  }
+  
+  .hobbies{
+    background-color: black;
+    color: #ECD06F;
   }
 
-  .sent__message{
-      text-align: right;
-      margin: 15px;
+  .cs{
+    background-color: black;
+    color: #ECD06F;
   }
 
-#background{
-    background-color: purple;
-}
-  #header{
-      border-radius: 30%;
-      padding: 50px;
-      text-align: center;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      background-color: purple;
-      color: white;
+  .about{
+    background-color: black;
+    color: #ECD06F;
   }
+
+  .decks{
+    margin-right: 50%;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .pics{
+    margin-left: 50%;
+  }
+
+  .header{
+    background: linear-gradient(to right, #ECD06F 0%, #ffffff 100%);
+    text-align: center;
+    margin: 2px;
+  }
+
+  #pic1{
+    background-color: #ECD06F;
+  }
+
+  #pic2{
+    background-color: #ECD06F;
+    margin-top: 118px;
+  }
+
+  nav{
+    background-color: #ECD06F;
+  }
+
+  body{
+    background-color: #DBDBDB;
+  }
+

@@ -7,13 +7,107 @@
         <title>Home page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-        <div class="header"></div>
-        <p>This is the home page</p>
 
-        <p><a href = "chat.html">Chat</a></p>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand">|Home page|</a>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#navbar01" aria-controls="navbar01" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">| Home |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">| My CV |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="chat.html">| Chat Application |</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <body>
+        
+        <div class="header">
+            <div class="container">
+              <h1 class="display-4">About me</h1>
+              <p class="lead">Ala Eddine Boudjatit
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <div class="row">
+                <div class="col-sm-8 ml-2">
+                    <div class = 'decks'>
+                        
+                        <div class="about">
+                            <h2>
+                                About me
+                            </h2>
+                            <div id="description">
+                                My name is Ala Eddine Boudjatit. I was born on the 22nd of April, 2004 in Algeria. When I was only 3 years old my parents migrated to the Middle East in hopes to obtain and provide a better life
+                                for my siblings and I. I have 2 brothers, one was born on 2006 and the other in 2003, so I am a middle child. Growing up, I studied in international schools attempting to master
+                                my fluency of english to be able to communicate with those around me. Soon enough though, I found myself comfortable in a place that I could call home. As time passed, 15 years in such a place
+                                felt like only 2 and I soon found myself graduating and heading to Aberdeen to study Computer science. 
+                
+                            </div>
+
+                        </div>
+                        <hr>
+                    </div>
+
+                        <div class="hobbies">
+                            <h2>
+                                My hobbies
+                            </h2>
+                            <div id="description">
+                                I like to consider myself as a man of many hobbies. To start, I enjoy teaching myself new things, wether it be learning new code or opening an online business. On ocassion,
+                                I like to read self-improvement books and articles, I find these very motivating and eye-opening. In my free time I usually participate in some casual gaming or play casual football with friends.
+                                Currently, I play for the Aberdeen University Football Club and it has been a very enjoyable experience so far. Last but not least, I am really enthusiastic 
+                                about everthing to do with computers, I enjoy building them, reading about them, and now I am learning how to make them do exactly what I want.
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="cs">
+                            <h2>
+                                Why I chose Computer Science              
+                            </h2>
+                            <div id="description">
+                                As I mentioned before, from a young age I have had a strong love with computer systems. I came across codeacademy when I was about 12 years old and began to do some practice
+                                for fun as I found it very interesting. Over time I began to gain more and more interest in learning new languages and impleneting them into projects. I also began taking
+                                computing courses at my school, and I found myself quite good at them. When the time came to make a decision, there was never any doubt in my choice. I chose computing science
+                                as my first choice for every application, and here I am now.
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <div id="pic1">
+                        <img src="images/image1.jpg" alt="A photo of me" height="300">
+                        2022
+                    </div>
+                    <hr>
+                    <div id="pic2"><img src="images/image2.jpg" alt="A photo of me playing football" height="400">2021</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
         
         <script src="js/client.js" async defer></script>
      
