@@ -16,7 +16,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #ECD06F;
     overflow-x: hidden;
   }
 
@@ -30,7 +30,7 @@
   
   /* Side navigation links */
   .sidenav a {
-    color: white;
+    color: black;
     padding: 16px;
     text-decoration: none;
     display: block;
@@ -105,3 +105,110 @@
     background-color: #DBDBDB;
   }
 
+  .message__info{
+    font-size: small;
+    font-style: italic;
+  }
+
+  .sent__message{
+    text-align: right;
+    padding: 2px;
+    margin-right: 20px;
+  }
+
+  .hobbies{
+    text-align: center;
+  }
+  
+  .cs{
+    text-align: center;
+  }
+
+  .message_form{
+    text-align: center;
+    position: sticky;
+    background-color: #ECD06F;
+    border: white;
+    border-style: solid;
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  #header{
+    text-align: center;
+    background-color: black;
+    color: #ECD06F;
+  }
+
+  #description{
+    padding: 10px;
+    background-color: #ECD06F;
+    color: black;
+    text-align: left;
+  }
+  
+  .hobbies{
+    background-color: black;
+    color: #ECD06F;
+  }
+
+  .cs{
+    background-color: black;
+    color: #ECD06F;
+  }
+
+  .about{
+    background-color: black;
+    color: #ECD06F;
+  }
+
+  .decks{
+    margin-right: 50%;
+    margin-left: 20px;
+    text-align: center;
+    width: 800px;
+  }
+
+  .pics{
+    margin-left: 50%;
+  }
+
+  .header{
+    background: linear-gradient(to right, #ECD06F 0%, #ffffff 100%);
+    text-align: center;
+    margin: 2px;
+  }
+
+  #pic1{
+    background-color: #ECD06F;
+  }
+
+  #pic2{
+    background-color: #ECD06F;
+    margin-top: 118 px;
+  }
+
+  nav{
+    background-color: #ECD06F;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  body{
+    background-color: #DBDBDB;
+  }
+
+  @media screen and (max-width: 992px){
+    .decks{
+      width: 100%;
+      text-align: center;
+      margin-left: 20px;
+    }
+
+    #pic2{
+      width: 200px;
+    }
+
+  }
